@@ -48,6 +48,7 @@ body {
 .header-nav:hover {
 	color: #404BBF;
 }
+
 .header-nav:focus {
 	color: #404BBF;
 }
@@ -68,7 +69,9 @@ body {
 	color: #404BBF;
 }
 
-.header-adress-link:hover {color: #404bbf;}
+.header-adress-link:hover {
+	color: #404BBF;
+}
 
 
 .service {
@@ -99,7 +102,10 @@ body {
 .service-button:focus {
 	background-color: #404BBF;
 }
-.service-button:hover {background-color: #404BBF}
+
+.service-button:hover {
+	background-color: #404BBF
+}
 
 .preference-name {
 	font-weight: 500;
@@ -187,8 +193,11 @@ body {
 	color: #FFFFFF;
 	background-color: #404BBF;
 }
-.portfolio-nav-button:focus {color: #FFFFFF;
-	background-color: #404BBF;}
+
+.portfolio-nav-button:focus {
+	color: #FFFFFF;
+	background-color: #404BBF;
+}
 
 .portfolio-nav-button {
 	font-family: "Roboto", sans-serif;
