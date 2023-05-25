@@ -1,13 +1,19 @@
+
+:root {
+	--main-color: #FFFFFF
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #434455;
+	background-color: var(--main-color);
+
 }
 
-ul {
-	list-style-type: none;
+.list {
+	list-style: none;
 }
 
-a {
+.link {
 	text-decoration: none;
 }
 
@@ -15,27 +21,26 @@ a {
 
 .logo {
 	color: #4D5AE5;
-	width: 44px;
-	height: 21px;
-	font-family: 'Raleway';
-	font-style: normal;
+	
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 }
 
 .logo-studio {
 	color: #2E2F42;
-	height: 21px;
-	font-style: normal;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.16;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
 }
 
 .header-nav {
 	color: #2E2F42;
 	font-weight: 500;
 	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em
 }
 
 .header-nav:hover {
@@ -68,8 +73,7 @@ a {
 
 .service {
 	background: #2E2F42;
-	width: 1440px;
-	height: 600px;
+	
 }
 
 .service-name {
@@ -81,9 +85,6 @@ a {
 }
 
 .service-button {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
 	cursor: pointer;
 	background: #4D5AE5;
 }
@@ -97,7 +98,6 @@ a {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
-	display: flex;
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
 }
@@ -147,8 +147,7 @@ a {
 
 footer {
 	background-color: #2E2F42;
-	width: 1440px;
-	height: 312px;
+	
 }
 
 .footer-text {
@@ -193,8 +192,6 @@ footer {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	display: flex;
-	align-items: center;
 	text-align: center;
 	letter-spacing: 0.04em;
 	color: #4D5AE5;
