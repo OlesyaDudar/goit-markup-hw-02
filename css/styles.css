@@ -1,6 +1,6 @@
 
 :root {
-	--main-color: #FFFFFF
+	--main-color: #FFFFFF;
 }
 body {
 	font-family: 'Roboto', sans-serif;
@@ -164,8 +164,7 @@ footer {
 
 .team-card {
 	background: #FFFFFF;
-	width: 264px;
-	height: 380px;
+
 }
 
 /* portfolio */
@@ -192,7 +191,7 @@ footer {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	text-align: center;
+
 	letter-spacing: 0.04em;
 	color: #4D5AE5;
 }
