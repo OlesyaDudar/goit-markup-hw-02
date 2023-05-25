@@ -1,5 +1,6 @@
 :root {
 	--main-color: #FFFFFF;
+	--text-color:  #434455;
 }
 
 body {
@@ -187,6 +188,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	counter-reset: var(--text-color);
 }
 
 .portfolio-nav-button:hover {
