@@ -1,11 +1,21 @@
 :root {
 	--main-color: #FFFFFF;
-	--text-color:  #434455;
+	--text-color: #434455;
+	--primary-brand: #4D5AE5;
+	--pressed-state: #404BBF;
+	--dark: rgba(46, 47, 66, 1);
+	--success: #31D0AA;
+	--subtle-text: #8E8F99;
+	--accent: #E7E9FC;
+	--light: #F4F4FD;
+	--hero-background: rgba(46, 47, 66, 0.7);
+	--modal-background: #FCFCFC;
+	--modal-overlay: rgba(46, 47, 66, 0.4);
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #434455;
+	color: var(--text-color);
 	background-color: var(--main-color);
 }
 
@@ -20,7 +30,7 @@ body {
 /*studio*/
 
 .logo {
-	color: #4D5AE5;
+	color: var(--primary-brand);
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -30,16 +40,11 @@ body {
 }
 
 .logo-span {
-	color: #2E2F42;
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
+	color: var(--dark);
 }
 
 .header-nav {
-	color: #2E2F42;
+	color: var(--dark);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -47,11 +52,11 @@ body {
 }
 
 .header-nav:hover {
-	color: #404BBF;
+	color: var(--pressed-state);
 }
 
 .header-nav:focus {
-	color: #404BBF;
+	color: var(--pressed-state);
 }
 
 .header-adress {
@@ -59,29 +64,26 @@ body {
 }
 
 .header-adress-link {
-	color: #434455;
-	font-weight: 400;
+	color: var(--text-color);
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 
 .header-adress-link:focus {
-	color: #404BBF;
+	color: var(--pressed-state);
 }
 
 .header-adress-link:hover {
-	color: #404BBF;
+	color: var(--pressed-state);
 }
 
-
 .service {
-	background: #2E2F42;
+	background: var(--dark);
 }
 
 .service-name {
-	color: #FFFFFF;
-	font-weight: 700;
+	color: var(--main-color);
 	font-size: 56px;
 	line-height: 60px;
 	line-height: 1.07;
@@ -95,17 +97,17 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: #ffffff;
+	color: var(--main-color);
 	cursor: pointer;
-	background: #4D5AE5;
+	background: var(--primary-brand);
 }
 
 .service-button:focus {
-	background-color: #404BBF;
+	background-color: var(--pressed-state);
 }
 
 .service-button:hover {
-	background-color: #404BBF
+	background-color: var(--pressed-state);
 }
 
 .preference-name {
@@ -113,29 +115,27 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2E2F42;
+	color: var(--dark);
 }
 
 .preference-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 
 .name-section {
-	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	text-align: center;
 	text-transform: capitalize;
 	text-align: center;
-	color: #2E2F42;
+	color: var(--dark);
 }
 
 .team {
-	background: #F4F4FD;
+	background: var(--light);
 }
 
 .team-name {
@@ -143,35 +143,32 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2E2F42;
+	color: var(--dark);
 }
 
 .team-profession {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 
 .footer-section {
-
-	background-color: #2E2F42;
+	background-color: var(--dark);
 }
 
 .footer-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #F4F4FD;
+	color: var(--light);
 }
 
 .logo-footer {
-	color: #F4F4FD;
+	color: var(--light);
 }
 
 .team-card {
-	background: #FFFFFF;
+	background: var(--main-color);
 }
 
 /* portfolio */
@@ -180,11 +177,10 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2E2F42;
+	color: var(--dark);
 }
 
 .portfolio-project-style {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -192,22 +188,22 @@ body {
 }
 
 .portfolio-nav-button:hover {
-	color: #FFFFFF;
-	background-color: #404BBF;
+	color: var(--main-color);
+	background-color: var(--pressed-state);
 }
 
 .portfolio-nav-button:focus {
-	color: #FFFFFF;
-	background-color: #404BBF;
+	color: var(--main-color);
+	background-color: var(--pressed-state);
 }
 
 .portfolio-nav-button {
 	font-family: "Roboto", sans-serif;
-	background: #F4F4FD;
+	background: var(--light);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	cursor: pointer;
 	letter-spacing: 0.04em;
-	color: #4D5AE5;
+	color: var(--primary-brand);
 }
