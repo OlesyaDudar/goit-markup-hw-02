@@ -32,7 +32,9 @@ body {
 	color: #2E2F42;
 	font-weight: 800;
 	font-size: 18px;
-
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 .header-nav {
@@ -91,8 +93,9 @@ body {
 }
 
 .service-button:focus {
-	background: #404BBF;
+	background-color: #404BBF;
 }
+.service-button:hover {background-color: #404BBF}
 
 .preference-name {
 	font-weight: 500;
