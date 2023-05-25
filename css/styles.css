@@ -48,6 +48,9 @@ body {
 .header-nav:hover {
 	color: #404BBF;
 }
+.header-nav:focus {
+	color: #404BBF;
+}
 
 .header-adress {
 	font-style: normal;
@@ -183,8 +186,11 @@ body {
 	color: #FFFFFF;
 	background-color: #404BBF;
 }
+.portfolio-nav-button:focus {color: #FFFFFF;
+	background-color: #404BBF;}
 
 .portfolio-nav-button {
+	font-family: "Roboto", sans-serif;
 	background: #F4F4FD;
 	font-weight: 500;
 	font-size: 16px;
